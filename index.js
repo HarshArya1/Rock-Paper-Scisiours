@@ -71,8 +71,8 @@ button.addEventListener('click',fun);
 
 const restart=document.getElementById('restart');
 restart.addEventListener('click',()=>{
-    let player1win=0;
-    let player2win=0;
+    player1win=0;
+    player2win=0;
     p2win.innerHTML=`Win 0`;
     p1win.innerHTML=`Win 0`;
     const show1=document.getElementById('option1');
